@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  width: 1110px;
+  margin-top: 38px;
+  margin-left: 165px;
+  border: 1px solid black;
+}
+
+.container .hero .logo {
+  margin-top: 38px;
+}
+
+.container .hero .logo img {
+  margin-right: 831px;
+}
+
+.container .hero .logo a {
+  text-decoration: none;
+  background-color: #13183F;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 10%;
+}
