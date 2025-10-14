@@ -101,3 +101,15 @@ body {
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: 350px 350px;
 }
+
+.grid-item {
+  border: 1px solid black;
+}
+
+.write-1 {
+  background-color: #F02AA6;
+}
+.grid-item h1 {
+  margin-top: 64px;
+  margin-inline: 32px;
+}
