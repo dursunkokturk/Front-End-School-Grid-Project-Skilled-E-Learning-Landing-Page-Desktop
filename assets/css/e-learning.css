@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Plus Jakarta Sans;
+}
+
 .container {
   width: 1110px;
   margin-top: 38px;
   margin-left: 165px;
+  margin-bottom: 50px;
   border: 1px solid black;
 }
 
@@ -22,7 +27,6 @@
 }
 
 .container .hero .logo a {
-  font-family: Plus Jakarta Sans;
   font-size: 18px;
   line-height: 28px;
   text-decoration: none;
@@ -44,13 +48,11 @@
 }
 
 .banner .banner-left h1{
-  font-family: Plus Jakarta Sans;
   font-size: 56px;
   font-weight: 800;
 }
 
 .banner .banner-left p {
-  font-family: Plus Jakarta Sans;
   font-size: 18px;
   font-weight: 500;
   color: #83869A;
@@ -59,16 +61,43 @@
 }
 
 .banner .banner-left a {
-  font-family: Plus Jakarta Sans;
   font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
   padding: 20px 50px;
   text-decoration: none;
   background-color: #FF6F48;
-  border-radius: 10%;
+  color: white;
+  border-radius: 20%;
   /* margin-top: 40px; */
 }
 
 .banner .banner-right {
   width: 317px;
   height: 560px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.banner .banner-right .couse-information{
+  width: 199px;
+  display: flex;
+  position: absolute;
+}
+
+.banner .banner-right .background-image {
+  display: flex;
+  position: absolute;
+}
+
+.banner .banner-right .woman-image {
+  display: flex;
+  position: relative;
+  width: 317px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 350px 350px;
 }
