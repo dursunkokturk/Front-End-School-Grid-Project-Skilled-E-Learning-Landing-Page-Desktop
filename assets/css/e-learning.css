@@ -100,6 +100,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: 350px 350px;
+  row-gap: 56px;
+  column-gap: 30px;
 }
 
 .grid-item {
@@ -151,6 +153,24 @@ body {
   color: #83869A;
 }
 .part-3 h3 a {
+  color: #F74780;
+  text-decoration: none;
+}
+
+.part-4 img {
+  margin-left: 32px;
+  margin-bottom: 32px;
+}
+
+.part-4 h1,h3 {
+  margin-inline: 32px;
+  margin-bottom: 24px;
+}
+
+.part-4 h3 {
+  color: #83869A;
+}
+.part-4 h3 a {
   color: #F74780;
   text-decoration: none;
 }
