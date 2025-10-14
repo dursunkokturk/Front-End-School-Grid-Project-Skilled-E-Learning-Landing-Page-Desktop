@@ -106,11 +106,28 @@ body {
   border: 1px solid black;
 }
 
-.write-1 {
+.part-1 {
   background-color: #F02AA6;
 }
-.grid-item h1 {
+.part-1 h1 {
   margin-top: 64px;
   margin-inline: 32px;
   color: white;
+}
+
+.part-2 img {
+  margin-left: 32px;
+  margin-bottom: 32px;
+}
+
+.part-2 h1,h3 {
+  margin-inline: 32px;
+  margin-bottom: 24px;
+}
+.part-2 h3 {
+  color: #83869A;
+}
+.part-2 h3 a {
+  color: #F74780;
+  text-decoration: none;
 }
