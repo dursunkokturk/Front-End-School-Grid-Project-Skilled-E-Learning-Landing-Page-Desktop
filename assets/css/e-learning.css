@@ -192,3 +192,21 @@ body {
   color: #F74780;
   text-decoration: none;
 }
+
+.part-6 img {
+  margin-left: 32px;
+  margin-bottom: 32px;
+}
+
+.part-6 h1,h3 {
+  margin-inline: 32px;
+  margin-bottom: 24px;
+}
+
+.part-6 h3 {
+  color: #83869A;
+}
+.part-6 h3 a {
+  color: #F74780;
+  text-decoration: none;
+}
