@@ -17,17 +17,20 @@ body {
   border: 1px solid black;
 }
 
-.container .hero .logo {
+.logo-and-button {
   margin-top: 38px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: row;
+  justify-content: space-evenly; */
 }
 
-.container .hero .logo img {
-  margin-right: 831px;
+.logo-and-button img {
+  margin-inline: 165px;
 }
 
-.container .hero .logo a {
+.logo-and-button a {
   font-size: 18px;
   line-height: 28px;
   text-decoration: none;
@@ -43,17 +46,17 @@ body {
   margin-top: 87px;
 }
 
-.banner .banner-left {
+.banner-left {
   width: 457px;
   margin-right: 162px;
 }
 
-.banner .banner-left h1{
+.banner-left h1{
   font-size: 56px;
   font-weight: 800;
 }
 
-.banner .banner-left p {
+.banner-left p {
   font-size: 18px;
   font-weight: 500;
   color: #83869A;
@@ -61,7 +64,7 @@ body {
   margin-bottom: 40px;
 }
 
-.banner .banner-left a {
+.banner-left a {
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
@@ -73,25 +76,31 @@ body {
   /* margin-top: 40px; */
 }
 
-.banner .banner-right {
-  width: 317px;
-  height: 560px;
+.banner-right {
+  width: 600px;
+  /* height: 560px; */
   display: flex;
   border: 1px solid black;
 }
 
-.banner .banner-right .couse-information{
+.couse-information{
   width: 199px;
   display: flex;
   position: absolute;
 }
 
-.banner .banner-right .background-image {
-  display: flex;
-  position: absolute;
+.color-and-woman-photo {
+  
+}
+.purple {
+  margin-top: -180px;
 }
 
-.banner .banner-right .woman-image {
+.background-image {
+  margin-top: -1600px;
+}
+
+.woman-image {
   display: flex;
   position: relative;
   width: 317px;
@@ -119,9 +128,21 @@ body {
   color: white;
 }
 
+.part-2 {
+  display: flex;
+  position: relative;  
+}
+
 .part-2 img {
   margin-left: 32px;
   margin-bottom: 32px;
+  position: absolute;
+}
+
+.write {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
 }
 
 .part-2 h1,h3 {
@@ -211,4 +232,25 @@ body {
 .part-6 h3 a {
   color: #F74780;
   text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1440px;;
+  background-color: #13183F;
+  margin-bottom: 50px;
+}
+
+.footer img {
+  margin-left: 165px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  background-color: #F02AA6;
+  padding: 14px 31px;
+  border-radius: 20%;
 }
